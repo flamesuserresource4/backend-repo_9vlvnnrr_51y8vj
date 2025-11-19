@@ -1,7 +1,18 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [247] using StatReload
-INFO:     Started server process [249]
+INFO:     Started reloader process [292] using StatReload
+INFO:     Started server process [294]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:46240 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:48784 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:44380 - "GET /calendars HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44380 - "POST /calendars HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44380 - "GET /calendars HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44390 - "GET /calendars HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44396 - "GET /calendars/691d0ef80da5b828d3f5fdc0 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44396 - "GET /calendars/691d0ef80da5b828d3f5fdc0 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44396 - "GET /calendars/691d0e23acddbbfeffdb36c4 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44424 - "GET /uploads/20251119002409850431.jpeg HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44396 - "GET /calendars/691d0e2facddbbfeffdb36c5 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44396 - "GET /calendars/691d0e23acddbbfeffdb36c4 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44410 - "PUT /calendars/691d0e23acddbbfeffdb36c4/pages/1 HTTP/1.1" 200 OK
